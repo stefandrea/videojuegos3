@@ -8,6 +8,10 @@ public class Videojuegos {
     private int inventario;
     private boolean online;
     private boolean actualizaciones;
+    
+    public Videojuegos(){
+        
+    }
 
     public Videojuegos(String usuarioDelJugador, int niveles, int cantidadDeAvatares, int inventario, boolean online, boolean actualizaciones) {
         this.usuarioDelJugador = usuarioDelJugador;
